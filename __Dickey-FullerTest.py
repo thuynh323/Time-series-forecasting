@@ -1,3 +1,8 @@
+import pandas as pd
+import numpy as np
+from statsmodels.tsa.stattools import adfuller
+import matplotlib.pyplot as plt
+
 def test_stationarity(y, title, window , figsize=(12,5)):
     """
     Test stationarity using moving average statistics and Dickey-Fuller test
