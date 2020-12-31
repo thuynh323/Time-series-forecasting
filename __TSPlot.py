@@ -1,3 +1,7 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import statsmodels.tsa.api as smt
+
 def plot_general(y, title='title', lags=None, figsize=(12,8)):
     """
     Examine the patterns of ACF and PACF, along with the time series plot and histogram.
